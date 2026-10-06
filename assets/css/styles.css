@@ -1,7 +1,20 @@
 /* styles.css */
 
-* {
+body {
 	font-family: Arial;
+}
+
+.titleFont{
+	font-family:
+}
+
+.bioFont{
+	font-family: JetBrains Mono, monospace;
+}
+
+h1 {
+    font-family: "ITC Bookman", "Bookman Old Style", "URW Bookman", Bookman, serif;
+    font-weight: bold;
 }
 
 .bebop-img {
