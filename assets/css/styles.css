@@ -1,4 +1,5 @@
 /* styles.css */
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
 
 body {
 	font-family: Arial;
@@ -10,11 +11,21 @@ body {
 
 .bioFont{
 	font-family: JetBrains Mono, monospace;
+	line-height: 1.8;
+    margin-bottom: 8px;
 }
 
 h1 {
     font-family: "ITC Bookman", "Bookman Old Style", "URW Bookman", Bookman, serif;
     font-weight: bold;
+}
+
+p {
+  font-family: "Clarity City", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 18px;
 }
 
 .bebop-img {
@@ -73,4 +84,75 @@ h1 {
 	text-decoration: none;
 	border-radius: 5px;
 	font-size: 16px;
+}
+
+.img-frame {
+    background-color: #491c63; 
+    padding: 10px 4px;          
+    border-radius: 8px 0 8px 0; 
+    clip-path: polygon(
+        0 0,
+        calc(100% - 25px) 0,  
+        100% 25px,
+        100% 100%,
+        25px 100%,            
+        0 calc(100% - 25px)
+    );
+
+}
+
+.img-frame-jett {
+    background-color: #631c34;   
+    padding: 10px 50px;                
+    border-radius: 8px 0 8px 0; 
+    clip-path: polygon(
+        0 0,
+        calc(100% - 25px) 0,     /* top-right cut of the frame */
+        100% 25px,
+        100% 100%,
+        25px 100%,               
+        0 calc(100% - 25px)
+    );
+}
+
+	.img-frame-ein {
+    background-color: #635e1c;
+    padding: 10px 50px;                
+    border-radius: 8px 0 8px 0; 
+    clip-path: polygon(
+        0 0,
+        calc(100% - 25px) 0,     /* top-right corner cut of the imagess frame */
+        100% 25px,
+        100% 100%,
+        25px 100%,               
+        0 calc(100% - 25px)
+    );
+}
+
+	.img-frame-Ed {
+    background-color: #63321c;
+    padding: 10px 50px;                
+    border-radius: 8px 0 8px 0; 
+    clip-path: polygon(
+        0 0,
+        calc(100% - 25px) 0,     /* top-right corner cut of the imagess frame */
+        100% 25px,
+        100% 100%,
+        25px 100%,               
+        0 calc(100% - 25px)
+    );
+}
+
+	.img-frame-Spike {
+    background-color: #1c633a;
+    padding: 10px 50px;
+    border-radius: 8px 0 8px 0; 
+    clip-path: polygon(
+        0 0,
+        calc(100% - 25px) 0,     /* top-right corner cut of the images frame. try to adjust the sizing here. Not scaling properly*/
+        100% 25px,
+        100% 100%,
+        25px 100%,               
+        0 calc(100% - 25px)
+    );
 }
