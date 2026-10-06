@@ -28,10 +28,14 @@
 	max-width: 600px;
 }
 
+.faye-img {
+	max-width: 400px;
+}
+
 .forward-button {
 	display: inline-block;
 	padding: 10px 20px;
-	background-color: #36e780;
+	background-color: #69d194;
 	color: #fff;
 	text-decoration: none;
 	border-radius: 5px;
@@ -41,7 +45,7 @@
 .backward-button {
 	display: inline-block;
 	padding: 10px 20px;
-	background-color: #e73653;
+	background-color: #e64963;
 	color: #fff;
 	text-decoration: none;
 	border-radius: 5px;
